@@ -1,0 +1,44 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f9;
+  text-align: center;
+  color: #333;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+h1 {
+  color: #ff69b4;
+  font-size: 36px;
+}
+
+.message {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #555;
+}
+
+button {
+  background-color: #ff69b4;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+button:hover {
+  background-color: #ff1493;
+}
+
+.heart {
+  background-image: url("https://cdn.pixabay.com/photo/2017/08/30/02/47/heart-2692959_960_720.png");
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  margin: 30px auto;
+}
